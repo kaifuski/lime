@@ -29,6 +29,7 @@ ifneq (,$(wildcard /usr/local/lib/.))
     LIBS += -L/usr/local/lib
 endif
 
+LIBS += -L/usr/lib/python2.7
 
 CPPFLAGS += -I${CURDIR}/include \
 	    -I${CURDIR}/src \
